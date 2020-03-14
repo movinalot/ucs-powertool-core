@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  ucspowertool:
-    image: ucspowertool
-    build:
-      context: .
-      dockerfile: Dockerfile
