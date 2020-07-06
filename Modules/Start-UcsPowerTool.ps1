@@ -28,6 +28,6 @@ write-host "Get-UcsCentralCmdletMeta" -foregroundcolor yellow
 write-host ""
 write-host "To display the details of the UCS PowerTool Configuration:              " -NoNewLine
 write-host "Get-UcsPowerToolConfiguration" -foregroundcolor yellow
-write-host "To display details of UCS, IMC and UCS Central active session(s):       " -NoNewLine
+write-host "To display details of UCS, IMC, and UCS Central active session(s):      " -NoNewLine
 write-host "Get-UcsPSSession" -foregroundcolor yellow
 write-host ""
