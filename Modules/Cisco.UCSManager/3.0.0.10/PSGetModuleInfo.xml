@@ -1,0 +1,207 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Cisco.UCSManager</S>
+      <Version N="Version">3.0.0.10</Version>
+      <S N="Type">Module</S>
+      <S N="Description">PowerShell Module for Cisco UCS Manager (UCS Manager module in Cisco PowerTool Suite)</S>
+      <S N="Author">Cisco Systems</S>
+      <S N="CompanyName">Cisco</S>
+      <S N="Copyright">(c) 2019 Cisco Systems. All rights reserved.</S>
+      <DT N="PublishedDate">2020-07-03T11:29:20-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2020-07-06T17:04:48.993264-04:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://www.cisco.com/c/en/us/about/legal/cloud-and-software/end_user_license_agreement.html</URI>
+      <Nil N="ProjectUri" />
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>PSEdition_Desktop</S>
+          <S>UCSPowerTool</S>
+          <S>CiscoUCSCmdlets</S>
+          <S>PowerToolCmdlets</S>
+          <S>Windows</S>
+          <S>Linux</S>
+          <S>MacOSX</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST>
+                <S>FnRemoveUcsBlade</S>
+                <S>FnDecommissionUcsBlade</S>
+                <S>FnRecommissionUcsBlade</S>
+                <S>FnAcknowledgeUcsBlade</S>
+                <S>FnRemoveUcsChassis</S>
+                <S>FnDecommissionUcsChassis</S>
+                <S>FnRecommissionUcsChassis</S>
+                <S>FnAcknowledgeUcsChassis</S>
+                <S>FnRemoveUcsFex</S>
+                <S>FnDecommissionUcsFex</S>
+                <S>FnRecommissionUcsFex</S>
+                <S>FnAcknowledgeUcsFex</S>
+                <S>FnAcknowledgeUcsSlot</S>
+                <S>FnRemoveUcsRackUnit</S>
+                <S>FnDecommissionUcsRackUnit</S>
+                <S>FnRecommissionUcsRackUnit</S>
+                <S>FnAcknowledgeUcsRackUnit</S>
+                <S>FnRemoveUcsCartridge</S>
+                <S>FnDecommissionUcsServerUnit</S>
+                <S>FnRecommissionUcsServerUnit</S>
+                <S>FnAcknowledgeUcsServerUnit</S>
+                <S>FnResetUcsIoModule</S>
+                <S>FnResetUcsPeerIoModule</S>
+                <S>FnEnableUcsDiskLocatorLed</S>
+                <S>FnDisableUcsDiskLocatorLed</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>FnRemoveUcsBlade</S>
+                <S>FnDecommissionUcsBlade</S>
+                <S>FnRecommissionUcsBlade</S>
+                <S>FnAcknowledgeUcsBlade</S>
+                <S>FnRemoveUcsChassis</S>
+                <S>FnDecommissionUcsChassis</S>
+                <S>FnRecommissionUcsChassis</S>
+                <S>FnAcknowledgeUcsChassis</S>
+                <S>FnRemoveUcsFex</S>
+                <S>FnDecommissionUcsFex</S>
+                <S>FnRecommissionUcsFex</S>
+                <S>FnAcknowledgeUcsFex</S>
+                <S>FnAcknowledgeUcsSlot</S>
+                <S>FnRemoveUcsRackUnit</S>
+                <S>FnDecommissionUcsRackUnit</S>
+                <S>FnRecommissionUcsRackUnit</S>
+                <S>FnAcknowledgeUcsRackUnit</S>
+                <S>FnRemoveUcsCartridge</S>
+                <S>FnDecommissionUcsServerUnit</S>
+                <S>FnRecommissionUcsServerUnit</S>
+                <S>FnAcknowledgeUcsServerUnit</S>
+                <S>FnResetUcsIoModule</S>
+                <S>FnResetUcsPeerIoModule</S>
+                <S>FnEnableUcsDiskLocatorLed</S>
+                <S>FnDisableUcsDiskLocatorLed</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+        </DCT>
+      </Obj>
+      <Version N="PowerShellGetFormatVersion">2.0</Version>
+      <S N="ReleaseNotes">Cisco.UCSManager.Cmdlets -Version 3.0.0.0_x000D__x000A_February 2020_x000D__x000A__x000D__x000A_Key Features in Release:_x000D__x000A_    UCS PowerTool module(s) are compatible with PowerShell version 5.1 and PowerShell Core version 6.1 or higher._x000D__x000A__x000D__x000A_Release notes:_x000D__x000A_    Cisco UCS PowerTool Suite_x000D__x000A_    https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-management-partner-ecosystem-software/products-release-notes-list.html</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Cisco.UCS.Common</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Cisco.UCS.Common</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">(c) 2019 Cisco Systems. All rights reserved.</S>
+          <S N="description">PowerShell Module for Cisco UCS Manager (UCS Manager module in Cisco PowerTool Suite)</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">Cisco.UCSManager.Cmdlets -Version 3.0.0.0_x000D__x000A_February 2020_x000D__x000A__x000D__x000A_Key Features in Release:_x000D__x000A_    UCS PowerTool module(s) are compatible with PowerShell version 5.1 and PowerShell Core version 6.1 or higher._x000D__x000A__x000D__x000A_Release notes:_x000D__x000A_    Cisco UCS PowerTool Suite_x000D__x000A_    https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-management-partner-ecosystem-software/products-release-notes-list.html</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">48</S>
+          <S N="downloadCount">8386</S>
+          <S N="packageSize">10521513</S>
+          <S N="published">7/3/2020 11:29:20 AM -04:00</S>
+          <S N="created">7/3/2020 11:29:20 AM -04:00</S>
+          <S N="lastUpdated">7/6/2020 8:53:49 PM -04:00</S>
+          <S N="tags">PSEdition_Desktop UCSPowerTool CiscoUCSCmdlets PowerToolCmdlets Windows Linux MacOSX PowerShellGetFormatVersion_2.0 PSModule PSFunction_FnRemoveUcsBlade PSCommand_FnRemoveUcsBlade PSFunction_FnDecommissionUcsBlade PSCommand_FnDecommissionUcsBlade PSFunction_FnRecommissionUcsBlade PSCommand_FnRecommissionUcsBlade PSFunction_FnAcknowledgeUcsBlade PSCommand_FnAcknowledgeUcsBlade PSFunction_FnRemoveUcsChassis PSCommand_FnRemoveUcsChassis PSFunction_FnDecommissionUcsChassis PSCommand_FnDecommissionUcsChassis PSFunction_FnRecommissionUcsChassis PSCommand_FnRecommissionUcsChassis PSFunction_FnAcknowledgeUcsChassis PSCommand_FnAcknowledgeUcsChassis PSFunction_FnRemoveUcsFex PSCommand_FnRemoveUcsFex PSFunction_FnDecommissionUcsFex PSCommand_FnDecommissionUcsFex PSFunction_FnRecommissionUcsFex PSCommand_FnRecommissionUcsFex PSFunction_FnAcknowledgeUcsFex PSCommand_FnAcknowledgeUcsFex PSFunction_FnAcknowledgeUcsSlot PSCommand_FnAcknowledgeUcsSlot PSFunction_FnRemoveUcsRackUnit PSCommand_FnRemoveUcsRackUnit PSFunction_FnDecommissionUcsRackUnit PSCommand_FnDecommissionUcsRackUnit PSFunction_FnRecommissionUcsRackUnit PSCommand_FnRecommissionUcsRackUnit PSFunction_FnAcknowledgeUcsRackUnit PSCommand_FnAcknowledgeUcsRackUnit PSFunction_FnRemoveUcsCartridge PSCommand_FnRemoveUcsCartridge PSFunction_FnDecommissionUcsServerUnit PSCommand_FnDecommissionUcsServerUnit PSFunction_FnRecommissionUcsServerUnit PSCommand_FnRecommissionUcsServerUnit PSFunction_FnAcknowledgeUcsServerUnit PSCommand_FnAcknowledgeUcsServerUnit PSFunction_FnResetUcsIoModule PSCommand_FnResetUcsIoModule PSFunction_FnResetUcsPeerIoModule PSCommand_FnResetUcsPeerIoModule PSFunction_FnEnableUcsDiskLocatorLed PSCommand_FnEnableUcsDiskLocatorLed PSFunction_FnDisableUcsDiskLocatorLed PSCommand_FnDisableUcsDiskLocatorLed PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2020-07-06T20:53:49Z</S>
+          <S N="NormalizedVersion">3.0.0.10</S>
+          <S N="Authors">Cisco Systems</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Cisco.UCSManager.nuspec|Cisco.Ucsm.Cmdlets.dll|Cisco.Ucsm.Cmdlets.dll-help.xml|Cisco.Ucsm.dll|Cisco.UCSManager.psd1|license.txt|UcsAlias.psm1|Samples\Download-File.ps1|Samples\Export-UcsMoXml.ps1|Samples\Get-UcsCimcIpReport.ps1|Samples\Get-UcsDvsConfig.ps1|Samples\Get-UcsGlobalPolicy.ps1|Samples\Import-UcsMoXml.ps1|Samples\RepackAfterCodeSign.ps1|Samples\UCSMFirmwareUpdate.ps1</S>
+          <S N="GUID">b435f542-68c2-469f-9654-14a5aa344aee</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.5</S>
+          <S N="CompanyName">Cisco Systems</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">/Users/jomcdono/.local/share/powershell/Modules/Cisco.UCSManager/3.0.0.10</S>
+    </MS>
+  </Obj>
+</Objs>

@@ -1,0 +1,1 @@
+"IMC", "UCSManager", "UCSCentral" | ForEach-Object {Install-Module -Name Cisco.$_ -AcceptLicense -Force} 

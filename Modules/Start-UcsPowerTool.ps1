@@ -1,9 +1,9 @@
-﻿Import-Module Cisco.UCS.Core
+﻿Import-Module Cisco.UCS.Common
 Import-Module Cisco.UCSManager
 Import-Module Cisco.UCSCentral
 Import-Module Cisco.IMC
 $version = Get-UcsPowerToolConfiguration
-write-host "          Welcome to Cisco UCS PowerTool Core Suite $($version.Version) Beta"
+write-host "          Welcome to Cisco UCS PowerTool Suite $($version.Version)"
 write-host ""
 write-host "Log in to a UCS Manager Domain:                                         " -NoNewLine
 write-host "Connect-Ucs" -foregroundcolor yellow
@@ -27,7 +27,4 @@ write-host "To show object metadata for all UCS Central PowerTool commands:     
 write-host "Get-UcsCentralCmdletMeta" -foregroundcolor yellow  
 write-host "Once you've connected, display the details of active session(s):        " -NoNewLine
 write-host "Get-UcsPSSession" -foregroundcolor yellow
-write-host ""
-write-host "If you need more help, visit the UCS PowerTool user community:          " -NoNewLine
-write-host "https://communities.cisco.com/ucsintegrations" -foregroundcolor yellow
 write-host ""
