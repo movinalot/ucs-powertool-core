@@ -3,7 +3,7 @@ Import-Module Cisco.UCSManager
 Import-Module Cisco.UCSCentral
 Import-Module Cisco.IMC
 $version = Get-UcsPowerToolConfiguration
-write-host "          Welcome to Cisco UCS PowerTool Suite $($version.Version)"
+write-host "          Welcome to Cisco UCS PowerTool Core Suite $($version.Version)"
 write-host ""
 write-host "Log in to UCS Manager:                                                  " -NoNewLine
 write-host "Connect-Ucs" -foregroundcolor yellow
@@ -31,3 +31,4 @@ write-host "Get-UcsPowerToolConfiguration" -foregroundcolor yellow
 write-host "To display details of UCS, IMC, and UCS Central active session(s):      " -NoNewLine
 write-host "Get-UcsPSSession" -foregroundcolor yellow
 write-host ""
+function prompt {"[UCS PowerTool]: PS " + $(Get-Location) + "> "}
