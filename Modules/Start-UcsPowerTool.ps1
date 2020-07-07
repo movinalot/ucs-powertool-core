@@ -31,4 +31,9 @@ write-host "Get-UcsPowerToolConfiguration" -foregroundcolor yellow
 write-host "To display details of UCS, IMC, and UCS Central active session(s):      " -NoNewLine
 write-host "Get-UcsPSSession" -foregroundcolor yellow
 write-host ""
-function prompt {"[UCS PowerTool]: PS " + $(Get-Location) + "> "}
+
+if ((Test-Path env:UCS_PS_1)) {
+    function prompt {$env:UCS_PS_1 + $(Get-Location) + "> "}
+} else {
+    function prompt {"[UCS PowerTool]: PS " + $(Get-Location) + "> "}
+}
