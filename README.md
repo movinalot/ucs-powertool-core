@@ -1,4 +1,4 @@
-# docker-ucs-powertool-core
+# Docker ciscodevnet/ucs-powertool-core
 Docker Image for UCS PowerTool Core 3.0.0.10
 
 This docker image contains all required modules to run UCS PowerTool Core for
