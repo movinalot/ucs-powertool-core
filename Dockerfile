@@ -6,6 +6,5 @@ RUN yum -y install powershell
 RUN pwsh -Command '$ProgressPreference = "SilentlyContinue"; Install-Module Cisco.UcsManager -AcceptLicense -force'
 RUN pwsh -Command '$ProgressPreference = "SilentlyContinue"; Install-Module Cisco.UcsCentral -AcceptLicense -force'
 RUN pwsh -Command '$ProgressPreference = "SilentlyContinue"; Install-Module Cisco.IMC -AcceptLicense -force'
-#COPY Modules/ /root/.local/share/powershell/Modules/
 COPY Start-UcsPowerTool.ps1 /root/.local/share/powershell/Modules/
 CMD ["pwsh", "-NoExit", "-File", "/root/.local/share/powershell/Modules/Start-UcsPowerTool.ps1"]
