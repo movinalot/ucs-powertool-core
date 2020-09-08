@@ -1,5 +1,5 @@
 # Docker ciscodevnet/ucs-powertool-core
-Docker Image for UCS PowerTool Core 3.0.0.10
+Docker Image for UCS PowerTool Core using the CentOS Image
 
 This docker image contains all required modules to run UCS PowerTool Core for
 
@@ -17,7 +17,7 @@ The Container is CentOS 8 based and is running PowerShell Core 7.0.2  Upon launc
 
 ```
 ➜  ~ docker run --rm -it ciscodevnet/ucs-powertool-core:latest 
-PowerShell 7.0.2
+PowerShell 7.0.3
 Copyright (c) Microsoft Corporation. All rights reserved.
 
 https://aka.ms/powershell
@@ -54,7 +54,7 @@ To change the default prompt pass the UCS_PS_1 environment variable when startin
 
 ```
 ➜  ~ docker run --rm -it -e UCS_PS_1='US_WEST: ' ciscodevnet/ucs-powertool-core:latest
-PowerShell 7.0.2
+PowerShell 7.0.3
 Copyright (c) Microsoft Corporation. All rights reserved.
 
 https://aka.ms/powershell
